@@ -63,7 +63,7 @@ export function IssueCard({ issue }: IssueCardProps) {
     <article
       ref={setNodeRef}
       style={style}
-      className={`cursor-pointer select-none rounded-[3px] border border-[var(--color-border-light)] bg-white p-3 shadow-sm transition-all duration-100 hover:bg-[var(--color-bg-light)] ${isDragging ? 'opacity-60 cursor-grabbing' : ''}`}
+      className={`cursor-pointer select-none rounded-[3px] border border-[var(--color-border-light)] bg-white p-3 shadow-sm transition-all duration-100 hover:bg-[var(--color-bg-light)] ${isDragging ? 'invisible' : ''}`}
       {...attributes}
       {...listeners}
       onMouseDown={(e) => {
