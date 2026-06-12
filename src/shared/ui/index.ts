@@ -1,0 +1,12 @@
+export { Avatar } from '@/shared/ui/Avatar';
+export { Breadcrumbs } from '@/shared/ui/Breadcrumbs';
+export { Button } from '@/shared/ui/Button';
+export { Drawer } from '@/shared/ui/Drawer';
+export { Dropdown } from '@/shared/ui/Dropdown';
+export { Icon } from '@/shared/ui/Icon';
+export { Input } from '@/shared/ui/Input';
+export { Loader } from '@/shared/ui/Loader';
+export { Modal } from '@/shared/ui/Modal';
+export { Select } from '@/shared/ui/Select';
+export { Tag } from '@/shared/ui/Tag';
+export { Tooltip } from '@/shared/ui/Tooltip';
